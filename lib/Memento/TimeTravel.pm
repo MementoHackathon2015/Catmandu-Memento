@@ -37,6 +37,17 @@ Memento::TimeTravel - A time traveler for URLS
 
 =head1 SYNOPSIS
 
+  #In your fix file
+  marc_map(856u,myurl)
+  time_travel(myurl,2013)
+
+  unless exists(myurl.mementos)
+  	log("eek this url is not in a webarchive!", ERROR)
+  end
+
+  # or directly
+
+
   use Memento::TimeTravel;
 
   my $traveler = Memento::TimeTravel->new();
