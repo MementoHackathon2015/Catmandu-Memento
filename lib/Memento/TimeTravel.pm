@@ -31,9 +31,9 @@ sub find_mementos {
 	decode_json($mementos);
 }
 
-=head1 Memento::TimeTravel
+=head1 NAME
 
-A time traveler for URLS
+Memento::TimeTravel - A time traveler for URLS
 
 =head1 SYNOPSIS
 
