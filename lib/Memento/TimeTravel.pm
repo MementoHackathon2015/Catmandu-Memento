@@ -47,7 +47,7 @@ A time traveler for URLS
 
 Patrick Hochstenbach, C<< <patrick.hochstenbach at ugent.be> >>
 
-=head1 LICENSE AND COPYRIGHT
+=head1 LICENSE
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
